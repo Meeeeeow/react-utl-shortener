@@ -1,0 +1,52 @@
+# ========================
+# Logs
+# ========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================
+# Dependencies
+# ========================
+node_modules/
+
+# ========================
+# Build outputs (Vite)
+# ========================
+dist/
+dist-ssr/
+.vite/
+
+# ========================
+# Environment variables
+# (keep secrets out of Git)
+# ========================
+.env
+.env.local
+.env.*.local
+
+# Example file (safe to commit)
+# .env.example
+
+# ========================
+# TypeScript build cache
+# ========================
+*.tsbuildinfo
+
+# ========================
+# Editor & OS settings
+# ========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
